@@ -1379,14 +1379,4 @@ $kwAdmin-resource-path: 'images' !default;
 $current-package: false;
 $current-resource-root: $kwAdmin-resource-root;
 $relative-image-path-for-uis: $kwAdmin-resource-path;
-@import '../../../../../sass/src/view/main/Main';
-@import '../../../../../sass/src/view/main/Main';
-
-/* including package kwAdmin */
-$kwAdmin-resource-root: '' !default;
-$kwAdmin-resource-path: 'images' !default;
-$current-package: false;
-$current-resource-root: $kwAdmin-resource-root;
-$relative-image-path-for-uis: $kwAdmin-resource-path;
-@import '../../../../../classic/sass/src/view/main/Main';
 @import '../../../../../classic/sass/src/view/main/Main';
