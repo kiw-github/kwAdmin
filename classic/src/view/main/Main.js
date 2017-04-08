@@ -97,8 +97,8 @@ Ext.define('kwAdmin.view.main.Main', {
     }, {
         title: 'Settings',
         iconCls: 'fa-cog',
-        bind: {
-            html: '{loremIpsum}'
-        }
+        items: [{
+            xtype: 'netint'
+        }]
     }]
 });
